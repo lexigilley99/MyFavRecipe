@@ -1,0 +1,127 @@
+h1 {font-style: oblique;}
+h1 {text-align: center;}
+h1 {color: indianred; }
+p {color: indianred;font-size: smaller;text-align: center;}
+h2,h3 {font-style: oblique;text-align: center;color: indianred;}
+ol {font-style: normal;color: indianred;text-align: left;font-size:smaller}
+ul {font-style: normal;color: indianred;text-align: left}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:palevioletred;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    margin-top: auto;
+}
+nav ul a {
+    color:white;
+    text-decoration: none;
+    padding:10px 20px;
+    display: block;
+}
+nav ul li a:hover {
+    background-color:indianred;
+}
+body {
+    background-color: #e9e786; /* Replace #f0f0f0 with the color you want */
+}
+
+.image-container {
+    display:flex;
+    justify-content: center;
+    align-items:center;    
+    width:100%;
+}
+.image-container {
+    float:none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.image-container img {
+    max-width: 70%;
+    height :auto;
+}
+
+.nutrition table {
+    width: 70%;
+    border-collapse: collapse;
+    font-size: 1em;
+    font-style: oblique;
+    align-items: center;
+    justify-content: center;
+  }
+  .nutrition table {
+    float:none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .nutrition table th,
+  .nutrition table td {
+    padding: 6px;
+    border-bottom: 1px solid indianred;
+  }
+  .nutrition table tbody tr:nth-child(even) {
+    background-color: white;
+  }
+  .nutrition table {
+    width: calc(60%); align-content: center;
+  }
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-style: oblique;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .form-group textarea {
+    height: 100px;
+  }
+
+  .form-group input[type="submit"] {
+    background-color: palevioletred;
+    color: floralwhite;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .form-group input[type="submit"]:hover {
+    background-color: indianred; font-style: oblique;
+  }
+  
